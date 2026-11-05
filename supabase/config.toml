@@ -1,0 +1,12 @@
+project_id = "mini-crm"
+
+[auth]
+site_url = "http://localhost:5173"
+enable_signup = false
+
+[auth.email]
+enable_signup = false
+enable_confirmations = false
+
+[db.seed]
+enabled = false
